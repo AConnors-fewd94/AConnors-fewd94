@@ -1,15 +1,7 @@
-#top h1, #top p{ 
+#top h1{ 
 3
-color: blue; 
-}
+color: blue;
 
-#top .notes{
-
-  color: red;
-
-}
-
-p{
 
   margin: 10px;
 
@@ -20,3 +12,5 @@ p{
   width: 300px;
 
   background-color: orange; 
+
+  }
