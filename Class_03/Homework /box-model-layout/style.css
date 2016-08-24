@@ -1,0 +1,40 @@
+.container {
+  background-color: rgb(222, 222, 222);
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.nav {
+  background-color: pink;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-family: century gothic;
+}
+
+.nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.article {
+  background-color: gray;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#article-one {
+  color: white;
+}
+
+#article-two {
+  color: pink;
+}
+
+#article-three {
+  color: black;
+}
+
