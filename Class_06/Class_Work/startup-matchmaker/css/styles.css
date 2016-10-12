@@ -3,6 +3,13 @@
 // font-family: 'Merriweather', serif;
 // font-family: 'Source Sans Pro', sans-serif;*/
 
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
 .wrapper{
 	width: 90%;
 	margin: auto;
@@ -10,7 +17,9 @@
 
 h1 {
 	color: yellow;
-	font-family: ;
+	float: left;
+	margin: 0;
+	line-height: 80px;
 }
 
 nav { 
@@ -22,11 +31,13 @@ nav a{
 	font-size: 12px;
 	color: white;
 	text-decoration: none;
+	line-height: 80px;
 }
 
 header{
 	border-bottom: solid yellow 4px;
     background-color: black;
+    height: 80px
 }
 
 h2 {
@@ -37,9 +48,10 @@ h2 {
 	line-height: 75px;
 }
 
-div{
-	display: inline-block;
+.box {
+	float: left;
 	width: 30%;
+	padding: 1.5%;
 }
 
 main {
@@ -65,4 +77,8 @@ main {
 #one button {
 	width: 100%;
 	background-color: yellow;
+}
+
+footer {
+	clear: both;
 }
